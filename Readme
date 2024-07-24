@@ -1,0 +1,18 @@
+!!!!!!: A.1/2/3 and B.1/2/3 are both preparatory work.
+
+GES-code execution order:
+
+A1. delete error bbox image.py
+-> A2. get specific damage object  image.py
+-> A3. delete ex-small object.py
+-> GES-step-1. Label Grouping.py
+-> GES-step-2 and 4. Escape algorithm.py
+-> GES-step-3. smote.py
+-> GES-step-2 and 4. Escape algorithm.py
+-> B1. delete edge points.py
+-> B2.delete connected points.py
+-> B3. delete in label points.py
+-> GES-step-5. Mark appropriately sized labels .py
+-> GES-step-6.1 Find augimages and get full information.py
+-> GES-step-6.2 insert objects of various sizes.py
+-> GES-step-7. Data Redundancy Removal.py
